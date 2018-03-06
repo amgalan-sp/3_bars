@@ -10,8 +10,8 @@ from barselon import load_data
 
 def get_biggest_bar(data):
     data=load_data("bar.txt")
-    print(data["features"][])
-
+    parametres= data["features"][2]["properties"]["Attributes"]["SeatsCount"]
+    print(parametres)
 
 
 def get_smallest_bar(data):
